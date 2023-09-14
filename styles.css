@@ -1,0 +1,30 @@
+.main, .frozencaramel, .macaroons, .funnelcake {
+    background-color: #F5F5DC;
+    text-align: center;
+}
+
+.main {
+    color: black;
+}
+
+.frozencaramel {
+    color: #E9967A;
+}
+
+.macaroons {
+    color: #5F9EA0;
+}
+
+.funnelcake {
+    color: #DEB887;
+}
+
+.head {
+    font-family: "Lucida Console", monospace;
+}
+
+.recipe {
+    max-height: 100%vh;
+    max-width: 100%;
+    height: auto;
+}
