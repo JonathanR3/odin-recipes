@@ -1,4 +1,6 @@
-.main, .frozencaramel, .macaroons, .funnelcake {
+* {
+    margin: 0;
+    padding: 0;
     background-color: #F5F5DC;
     text-align: center;
 }
@@ -24,7 +26,6 @@
 }
 
 .recipe {
-    max-height: 100%vh;
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
 }
