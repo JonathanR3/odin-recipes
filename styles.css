@@ -1,25 +1,40 @@
 * {
-    margin: 0;
-    padding: 0;
-    background-color: #F5F5DC;
+    background-color: #f3f3ad;
     text-align: center;
     box-sizing: border-box;
+    background: lightgoldenrodyellow;
+}
+
+a:link, a:visited, a:hover{
+    font-weight: bold;
+    font-size: 15px;
+    color: lightcoral;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    display: inline-block;
+    background: #EFD595;
+    box-shadow: 10px 10px burlywood;
 }
 
 .main {
-    color: black;
+    color: lightpink;
+    background-color: lightgoldenrodyellow;
 }
 
 .frozencaramel {
     color: #E9967A;
+    background-color: navajowhite;
 }
 
 .macaroons {
     color: #5F9EA0;
+    background-color: navajowhite;
 }
 
 .funnelcake {
     color: #DEB887;
+    background-color: navajowhite;
 }
 
 .head {
@@ -32,11 +47,24 @@
 }
 
 div {
-    padding: 30px;
+    padding: 1px;
     text-align: center;
-    color: white;
+    border: 10px;
+    background-color:lightgoldenrodyellow;
 }
 
-.menu {
-    background-color: turquoise;
+li {
+    list-style-type: none;
+}
+
+.flexopt {
+    display: flex;
+    padding: 16px;
+    gap: 10px;
+}
+
+.flexopt div {
+    text-align: center;
+    justify-content: center;
+    flex: 1;
 }
