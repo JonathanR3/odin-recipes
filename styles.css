@@ -3,6 +3,7 @@
     padding: 0;
     background-color: #F5F5DC;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .main {
@@ -28,4 +29,14 @@
 .recipe {
     height: auto;
     max-width: 100%;
+}
+
+div {
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.menu {
+    background-color: turquoise;
 }
