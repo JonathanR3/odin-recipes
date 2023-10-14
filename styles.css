@@ -11,7 +11,7 @@ a:link, a:visited, a:hover{
     color: lightcoral;
     text-decoration: none;
     text-align: center;
-    padding: 10px 20px;
+    padding: 20px 40px;
     display: inline-block;
     background: #EFD595;
     box-shadow: 10px 10px burlywood;
@@ -42,8 +42,9 @@ a:link, a:visited, a:hover{
 }
 
 .recipe {
-    height: auto;
-    max-width: 100%;
+    height: 500px;
+    max-width: 500px;
+    object-fit: cover;
 }
 
 div {
@@ -57,14 +58,13 @@ li {
     list-style-type: none;
 }
 
-.flexopt {
+.container {
     display: flex;
-    padding: 16px;
-    gap: 10px;
 }
 
-.flexopt div {
+.item {
     text-align: center;
     justify-content: center;
-    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
 }
